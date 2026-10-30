@@ -1,0 +1,16 @@
+import java.util.*;
+
+  public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      String s="listen";
+      String t="silent";
+      char arr[]=s.toCharArray();
+      char arr2[]=t.toCharArray();
+      Arrays.sort(arr);
+      Arrays.sort(arr2);
+      String s1=new String(arr);
+      String t1=new String(arr);
+      System.out.println(s1.equals(t1));
+    }
+  }
